@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'hgond-icons';
+  src:  url('/fonts/hgond-icons.eot');
+  src:  url('/fonts/hgond-icons.eot#iefix') format('embedded-opentype'),
+    url('/fonts/hgond-icons.ttf') format('truetype'),
+    url('/fonts/hgond-icons.woff') format('woff'),
+    url('/images/hgond-icons.svg#hgond-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-hg {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'hgond-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hg-call:before {
+  content: "\e900";
+}
+.icon-hg-call-back:before {
+  content: "\e901";
+}
+.icon-hg-chat:before {
+  content: "\e902";
+}
+.icon-hg-contact:before {
+  content: "\e903";
+}
+.icon-hg-offices:before {
+  content: "\e904";
+}
